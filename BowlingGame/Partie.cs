@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BowlingGame
 {
-    class Partie
+    public class Partie
     {
+        public void TesterPartie()
+        {
+        }
     }
 }
