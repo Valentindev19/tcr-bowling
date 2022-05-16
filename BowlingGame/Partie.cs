@@ -8,8 +8,15 @@ namespace BowlingGame
 {
     public class Partie
     {
-        public void TesterPartie()
+        private int score;
+        public Partie()
         {
+            this.score = 0;
+        }
+
+        public int Score()
+        {
+            return this.score;
         }
     }
 }

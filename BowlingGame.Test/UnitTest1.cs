@@ -6,8 +6,12 @@ namespace BowlingGame.Test
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void une_Partie_Commence_Avec_Un_Score_De_Zero()
         {
-        }
+			var partie = new Partie();
+
+			Assert.AreEqual(0, partie.Score());
+
+		}
     }
 }
